@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img src="https://github.com/chocolesdeveloper/next14-duolingo-clone/assets/105561544/b86b2af5-66e0-46e7-a952-fa5e03218d5c" />
+</div>
 
-## Getting Started
+# Duolingo Clone
 
-First, run the development server:
+Este é um clone do Duolingo, uma plataforma de aprendizado de idiomas, enriquecido com recursos adicionais para uma experiência ainda mais completa. Além das funcionalidades padrão de aprendizado, nosso site oferece a opção de compras e a possibilidade de trocar pontos por corações para desbloquear conteúdo exclusivo. Além disso, todo o progresso do usuário é automaticamente salvo, permitindo que você retome suas lições de onde parou. Introduzimos também um sistema de missões, desafiando os alunos a alcançarem objetivos específicos e tornando o processo de aprendizado ainda mais envolvente e motivador.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias Principais:
+- **Next.js** ([@clerk/nextjs](https://github.com/clerkinc/nextjs)): Um framework React para renderização do lado do servidor.
+- **React** e **React-DOM** ([react](https://reactjs.org/), [react-dom](https://reactjs.org/docs/react-dom.html)): Bibliotecas JavaScript para construir interfaces de usuário.
+- **Tailwind CSS** ([tailwindcss](https://tailwindcss.com/)): Uma estrutura de design CSS de baixo nível para construir rapidamente designs personalizados.
+- **Zustand** ([zustand](https://github.com/pmndrs/zustand)): Uma biblioteca de gerenciamento de estado React que é simples, leve e escalável.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Bibliotecas de UI:
+- **Radix UI** ([@radix-ui/react-avatar](https://github.com/radix-ui/react-avatar), [@radix-ui/react-dialog](https://github.com/radix-ui/react-dialog), [@radix-ui/react-progress](https://github.com/radix-ui/react-progress)):
+  Conjunto de componentes de interface do usuário acessíveis e com estilo primitivo.
+- **React-Admin** ([react-admin](https://marmelab.com/react-admin/)): Uma estrutura para construir painéis de administração usando React.
+- **React-Circular-Progressbar** ([react-circular-progressbar](https://www.npmjs.com/package/react-circular-progressbar)): Um componente de barra de progresso circular personalizável para React.
+- **React-Confetti** ([react-confetti](https://www.npmjs.com/package/react-confetti)): Uma biblioteca para criar efeitos de confete em React.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Ferramentas de Desenvolvimento:
+- **Drizzle ORM** ([drizzle-orm](https://github.com/drizzle-org/drizzle-orm)): Uma biblioteca ORM para Node.js baseada em TypeScript.
+- **Sonner** ([sonner](https://github.com/danilowoz/sonner)): Uma biblioteca para tocar notificações sonoras no navegador.
+- **Stripe** ([stripe](https://stripe.com/)): Uma plataforma de pagamentos online.
+- **dotenv** ([dotenv](https://www.npmjs.com/package/dotenv)): Uma biblioteca para carregar variáveis de ambiente de um arquivo `.env`.
+- **PostgreSQL** ([pg](https://www.npmjs.com/package/pg)): Um driver PostgreSQL para Node.js.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Outras Ferramentas e Utilitários:
+- **Tailwind Merge** ([tailwind-merge](https://github.com/ben-rogerson/tailwind-merge)): Uma ferramenta para mesclar classes Tailwind CSS de forma programática.
+- **Tailwind CSS Animate** ([tailwindcss-animate](https://www.npmjs.com/package/tailwindcss-animate)): Um plugin Tailwind CSS para animações CSS.
+- **React Use** ([react-use](https://github.com/streamich/react-use)): Uma coleção de hooks React úteis.
 
-## Learn More
+## Ferramentas de Desenvolvimento e Configuração:
+- **TypeScript** ([typescript](https://www.typescriptlang.org/)): Um superset JavaScript que adiciona tipos estáticos opcionais ao JavaScript.
+- **ESLint** ([eslint](https://eslint.org/)): Uma ferramenta de linting para JavaScript.
+- **Autoprefixer** ([autoprefixer](https://github.com/postcss/autoprefixer)): Um plugin PostCSS para adicionar prefixos de fornecedor automaticamente.
+- **Tailwind CSS** ([tailwindcss](https://tailwindcss.com/)): Uma estrutura de design CSS de baixo nível para construir rapidamente designs personalizados.
 
-To learn more about Next.js, take a look at the following resources:
+## Para Instalar e Executar o Projeto Localmente:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone este repositório.
+2. Instale as dependências usando `npm install`.
+3. Execute o projeto localmente usando `npm run dev`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contribuição:
 
-## Deploy on Vercel
+Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correções, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
