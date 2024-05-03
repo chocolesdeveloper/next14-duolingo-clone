@@ -13,7 +13,7 @@ Este é um clone do Duolingo, uma plataforma de aprendizado de idiomas, enriquec
 - **Zustand** ([zustand](https://github.com/pmndrs/zustand)): Uma biblioteca de gerenciamento de estado React que é simples, leve e escalável.
 
 ## Bibliotecas de UI:
-- **Radix UI** ([@radix-ui/react-avatar](https://github.com/radix-ui/react-avatar), [@radix-ui/react-dialog](https://github.com/radix-ui/react-dialog), [@radix-ui/react-progress](https://github.com/radix-ui/react-progress)):
+- **Shadcn** ([@shadcn/react-avatar](https://github.com/shadcn/react-avatar), [@shadcn/react-dialog](https://github.com/shadcn/react-dialog)):
   Conjunto de componentes de interface do usuário acessíveis e com estilo primitivo.
 - **React-Admin** ([react-admin](https://marmelab.com/react-admin/)): Uma estrutura para construir painéis de administração usando React.
 - **React-Circular-Progressbar** ([react-circular-progressbar](https://www.npmjs.com/package/react-circular-progressbar)): Um componente de barra de progresso circular personalizável para React.
