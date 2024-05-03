@@ -40,7 +40,16 @@ Este é um clone do Duolingo, uma plataforma de aprendizado de idiomas, enriquec
 ## Para Instalar e Executar o Projeto Localmente:
 
 1. Clone este repositório.
-2. Instale as dependências usando `npm install`.
+2. Configure as seguintes variáveis de ambiente:
+    - `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=`
+    - `CLERK_SECRET_KEY=`
+    - `DATABASE_URL=""`
+    - `STRIPE_API_KEY=`
+    - `NEXY_PUBLIC_APP_URL="http://localhost:3000"`
+    - `STRIPE_WEBHOOK_SECRET=""`
+3. Instale as dependências usando `npm install`.
+4. Execute o projeto localmente usando `npm run dev`.
+
 3. Execute o projeto localmente usando `npm run dev`.
 
 ## Contribuição:
